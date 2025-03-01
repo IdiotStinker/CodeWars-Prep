@@ -17,7 +17,7 @@ for file in files:
     fileTime = datetime.strptime(file.split(".")[0], "%Y-%m-%d")
 
     if startTime <= fileTime <= endTime:
-        filePath = os.path.join("files", file)
+        filePath = os.path.join("exampleFiles", file)
 
         with open(filePath) as f:
             lines = f.read().strip().split("\n")
