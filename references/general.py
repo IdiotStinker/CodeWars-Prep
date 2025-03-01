@@ -128,8 +128,3 @@ time_t = datetime.strptime(time_str, "%Y-%m-%d")
 
 time_str2 = "2025-8-20"
 time_t2 = datetime.strptime(time_str2, "%Y-%m-%d")
-
-if __name__ == "__main__":
-  print(time_str2.year)
-  if time_t2.year >= time_t.year:
-    print("OKKKKKKKKKKKKKKKKKKKKKKKKKKKK")
