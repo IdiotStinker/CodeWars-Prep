@@ -8,7 +8,7 @@ with open("input.txt") as f:
 startTime = datetime.strptime(start, "%Y-%m-%d")
 endTime = datetime.strptime(end, "%Y-%m-%d")
 
-files = os.listdir("files")
+files = os.listdir("exampleFiles")
 
 transactions = []
 total = 0
