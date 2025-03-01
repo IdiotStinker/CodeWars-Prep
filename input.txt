@@ -1,3 +1,1 @@
-Gamma5Jay
-2187-01-17
-2189-02-03
+This is a placeholder since problem 0 needs no input.
